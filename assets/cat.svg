@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="96" viewBox="0 0 164 96" role="img" aria-labelledby="title">
+  <title id="title">A little cat with a gently swaying tail</title>
+  <style>
+    .tail{transform-origin:109px 60px;animation:sway 3.5s ease-in-out infinite}
+    .cat{animation:breathe 3.5s ease-in-out infinite;transform-origin:80px 72px}
+    @keyframes sway{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(10deg)}}
+    @keyframes breathe{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.97)}}
+    @media(prefers-reduced-motion:reduce){.tail,.cat{animation:none}}
+  </style>
+  <ellipse cx="83" cy="79" rx="48" ry="3" fill="#b7bea0" opacity=".3"/>
+  <g class="cat" fill="#f4eddd" stroke="#9a967e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path class="tail" d="M108 65Q137 71 138 48Q139 36 131 37Q126 38 131 48Q134 60 112 56"/>
+    <path d="M59 57Q57 43 81 43Q106 42 115 61L114 74Q104 80 92 74Q77 81 67 74L55 73Z"/>
+    <path d="M39 46L35 26L52 36Q61 31 70 36L82 24L83 47Q89 64 69 69L53 68Q34 64 39 46Z"/>
+    <path d="M42 39L40 33L47 38M73 39L78 32L78 41" fill="#d8bca8" stroke="none"/>
+    <path d="M46 51L52 52M67 52L73 50" fill="none"/>
+    <path d="M57 56L61 56L59 59Z" fill="#b89985" stroke="none"/>
+    <path d="M56 61Q59 63 62 61M35 55L44 57M75 57L87 55M77 62L85 64" fill="none" stroke-width="1.7"/>
+    <path d="M84 48Q80 52 82 57M96 49Q92 54 94 58" fill="none" stroke="#c8ba9e" stroke-width="4"/>
+  </g>
+</svg>
