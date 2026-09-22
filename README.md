@@ -11,7 +11,10 @@
 ☕ Code · Learn · Explore
 </pre>
 
-<p><samp>写点有用的代码，探索有趣的想法。</samp></p>
+<p>
+  行到水穷处，坐看云起时。<br>
+  <sub>—— 王维《终南别业》</sub>
+</p>
 
 <p><code>TypeScript</code> <code>Go</code> <code>Rust</code> <code>C++</code></p>
 
